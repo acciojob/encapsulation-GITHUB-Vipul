@@ -8,7 +8,7 @@ public class RWOnly {
     }
     public String getter()
     {
-        return this.name;
+        return name;
     }
     
 }
