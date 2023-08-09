@@ -3,13 +3,15 @@ package com.driver;
 public class Main {
     public static void main(String[] args)
     {
-        RWOnly r=new RWOnly();
-        // name variable has private access modifier so direct access not possible
+       //object creation
+        RWOnly obj=new RWOnly();
 
+         // name variable has private access modifier so direct access not possible
+        // System.out.println(r.name);
         //setting value through setter function in RWOnly
-        r.setter("aakash");
+        obj.setName("aakash");
         // printing value through getter function in RWOnly
-        System.out.println(r.getter());
+        System.out.println(obj.getName());
     }
   
 }
