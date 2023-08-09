@@ -5,7 +5,7 @@ public class Main {
     {
         RWOnly r=new RWOnly();
         r.setter("aakash");
-        r.getter();
+        System.out.println(r.getter());
     }
   
 }
